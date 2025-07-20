@@ -17,10 +17,10 @@ This project uses the classic Northwind database to answer key business question
 - SQL (CTEs, window functions, date functions)
 
 ## Sample Output
-![Employee Ranking](screenshots/ranking_employee_sales_performance.png)
-![Month on Month Sales](screenshots/mom_sales_growth.png)
-![Monthly Sales Running Total](screenshots/running_total_monthly_sales.png)
-![Top Products per Products](screenshots/top_products_per_country.png)
-![Sales Proportion by Country](screenshots/percentage_sales_each_country.png)
-![Top 20% Customers](screenshots/top_20_pc_customers_sales_vol.png)
-![Employee Sales Performance vs Average](screenshots/employee_sales_vs_average.png)
+![Employee Ranking](screenshots/ranking_employee_sales_performance.PNG)
+![Month on Month Sales](screenshots/mom_sales_growth.PNG)
+![Monthly Sales Running Total](screenshots/running_total_monthly_sales.PNG)
+![Top Products per Products](screenshots/top_products_per_country.PNG)
+![Sales Proportion by Country](screenshots/percentage_sales_each_country.PNG)
+![Top 20% Customers](screenshots/top_20_pc_customers_sales_vol.PNG)
+![Employee Sales Performance vs Average](screenshots/employee_sales_vs_average.PNG)
