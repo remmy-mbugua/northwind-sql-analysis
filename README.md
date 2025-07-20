@@ -34,11 +34,12 @@ This project uses the classic Northwind database to answer key business question
 ![Top Products per Category](screenshots/top_products_per_category.PNG)  
 7. Top 20% Customers  
 ![Top 20% Customers](screenshots/top_20_pc_customers_sales_vol.PNG) 
-8.  Employee Sales Performance vs Average  
+8. Employee Sales Performance vs Average  
 ![Employee Sales Performance vs Average](screenshots/employee_sales_vs_average.PNG)
   
 
 
-## SQL
+## Full SQL Logic
 
-- [See all SQL queries used in this analysis](sql_queries.md) 
+The complete set of SQL queries (including CTEs, window functions, and analytical logic) is available here:  
+[View the SQL queries](sql_queries.md)
