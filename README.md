@@ -1,13 +1,13 @@
 # Northwind Sales Insights Project
 
-This project uses the classic Northwind database to answer key business questions using SQL. It showcases my ability to write clear, optimized queries and derive insights relevant to stakeholders.
+This project uses the classic Northwind database to answer key business questions using SQL.
 
 ## Business Questions Answered
 
 1. Rank employees by total sales
 2. Calculate monthly running totals and MoM sales growth
 3. Identify high-value customers
-4. Analyze sales by product category
+4. Analyse sales by product category
 5. Find top-performing products per category
 6. Identify top 20% customers by total purchase volume
 7. Compare each employee's performance to the average
