@@ -20,16 +20,25 @@ This project uses the classic Northwind database to answer key business question
 ![Data Model](screenshots/data_model.png)  
 
 ## Sample Output
+1. Employee Ranking  
 ![Employee Ranking](screenshots/ranking_employee_sales_performance.PNG)  
-![Month on Month Sales](screenshots/mom_sales_growth.PNG)  
+2. Running Total of Monthly Sales  
 ![Monthly Sales Running Total](screenshots/running_total_monthly_sales.PNG)  
-![Top Products per Category](screenshots/top_products_per_category.PNG)  
-![Sales Proportion by Category](screenshots/sales_prop_by_category.PNG)  
-![Top 20% Customers](screenshots/top_20_pc_customers_sales_vol.PNG)  
-![Employee Sales Performance vs Average](screenshots/employee_sales_vs_average.PNG)
+3. Month on Month Sales  
+![Month on Month Sales](screenshots/mom_sales_growth.PNG)  
+4. Customers with Above Average Orders  
 ![Customers with Above Average Orders](screenshots/customers_above_avg_orders.PNG)
+5. Sales Proportion by Category  
+![Sales Proportion by Category](screenshots/sales_prop_by_category.PNG)  
+6. Top Products per Category  
+![Top Products per Category](screenshots/top_products_per_category.PNG)  
+7. Top 20% Customers  
+![Top 20% Customers](screenshots/top_20_pc_customers_sales_vol.PNG) 
+8.  Employee Sales Performance vs Average  
+![Employee Sales Performance vs Average](screenshots/employee_sales_vs_average.PNG)
+  
 
 
 ## SQL
 
-- [SQL Logic](sql_queries.md) – SQL queries 
+- [See all SQL queries used in this analysis](sql_queries.md) 
