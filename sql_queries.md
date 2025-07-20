@@ -23,7 +23,8 @@ SELECT
   sales_total, 
   RANK() OVER(ORDER BY sales_total DESC) AS employee_rank
 FROM sales_by_employee;
----
+...
+```
 ## 2. Running Total of Monthly Sales
 
 Calculate total monthly sales and running total
@@ -42,7 +43,8 @@ SELECT
   SUM(sales_total) OVER(ORDER BY month) AS running_total
 FROM sales_by_month
 ORDER BY month;
----
+...
+```
 ## 3. Month-over-Month Sales Growth
 
 Calculate sales growth as % difference from previous month
@@ -68,7 +70,8 @@ SELECT
     0
   ) AS pc_change
 FROM sales_per_month;
----
+...
+```
 ## 4. Customers by High Value Orders
 
 Identify high-value orders and count how many orders each customer has
@@ -100,7 +103,8 @@ SELECT
     above_avg_order_cnt
 FROM ranked
 WHERE rnk <= 10;
----
+...
+```
 ##  5. Sales Percentage by Category
 
 Show each category's contribution to total sales as a percentage
@@ -122,7 +126,8 @@ SELECT
   ROUND((total_sales::numeric / SUM(total_sales::numeric) OVER()) * 100, 2) AS sales_prop
 FROM total_sales_per_productcat
 ORDER BY sales_prop DESC;
----
+...
+```
 ##  6. Top Products per Category
 
 Return top 3 products by sales within each category
@@ -146,7 +151,8 @@ FROM sales_per_product
 WHERE rnk < 4
 ORDER BY category_name, total_sales DESC
 
----
+...
+```
 
 ## 7. Top 20% Customers by Total Purchase Volume
 
@@ -170,7 +176,8 @@ FROM ranking
 WHERE rnk <= 0.2
 ORDER BY total_purchase_vol DESC;
 
----
+...
+```
 
 ## 8. Employee Sales Performance vs Average
 
